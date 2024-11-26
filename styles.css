@@ -1,0 +1,207 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff; /* Cor suave de fundo */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #004aad; /* Azul escuro */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Preenche a largura */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ffd700; /* Dourado */
+}
+
+/* Seção Principal */
+main {
+  padding: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+main h2 {
+  color: #004aad;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botões com maior espaçamento */
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 8px 10px; /* Tamanho interno do botão */
+  margin: 15px;       /* Espaço ao redor dos botões */
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #002b73;
+  transform: scale(1.05); /* Leve zoom ao passar o mouse */
+}
+
+
+/* Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+form input,
+form select,
+form button {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #004aad;
+  outline: none;
+}
+
+/* Seção de Formulário de Lavagem */
+#formulario-lavagem {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* Branco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#formulario-lavagem h3 {
+  color: #004aad;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Seção de Links */
+/* Container "Visite nossos serviços" */
+#visite-nossas-paginas {
+  margin-top: 30px; /* Espaçamento acima */
+  padding: 30px; /* Espaçamento interno maior */
+  background-color: #ffffff; /* Fundo branco */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+  text-align: center;
+  width: 95%; /* Aumenta a largura para 95% da tela */
+  max-width: 1000px; /* Limite máximo de largura para evitar que fique muito grande */
+}
+
+
+#visite-nossas-paginas h2 {
+  color: #004aad;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#visite-nossas-paginas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#visite-nossas-paginas ul li {
+  margin-bottom: 10px;
+}
+
+#visite-nossas-paginas ul li a {
+  text-decoration: none;
+  color: #004aad;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin: 15;
+  border: 2px solid #004aad;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#visite-nossas-paginas ul li a:hover {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Rodapé (opcional) */
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
